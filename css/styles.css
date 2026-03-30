@@ -2,7 +2,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-nav{
+nav,a {
     background-attachment: local;
     display: block;
     width: 100%;
