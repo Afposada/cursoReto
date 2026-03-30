@@ -3,12 +3,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-header{
-    border-radius: 15px, 5px;
+nav{
+    background-attachment: local;
+    display: block;
     width: 100%;
     height: auto;
-}
-div::img{
-    width: auto;
-    max-height: 40%;
+    background: local;
 }
