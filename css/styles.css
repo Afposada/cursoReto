@@ -13,3 +13,16 @@ nav,a {
 p{
     border: 2px, solid green;
 }
+
+section {
+  display: block;
+  width: 400px;
+  height: 160px;
+  background: lightgray;
+  }
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
