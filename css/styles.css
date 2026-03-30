@@ -1,5 +1,4 @@
 *{
-    background-color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -9,4 +8,8 @@ nav{
     width: 100%;
     height: auto;
     background: local;
+    margin-top: auto;
+}
+p{
+    border: 2px, solid green;
 }
