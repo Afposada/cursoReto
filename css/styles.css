@@ -3,6 +3,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 header{
-    border-radius: 15;
-    
+    border-radius: 15px, 5px;
+    width: 100%;
+    height: auto;
+
 }
