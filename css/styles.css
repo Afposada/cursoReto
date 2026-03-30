@@ -2,9 +2,13 @@
     background-color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
 header{
     border-radius: 15px, 5px;
     width: 100%;
     height: auto;
-
+}
+div::img{
+    width: auto;
+    max-height: 40%;
 }
