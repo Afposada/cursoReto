@@ -3,14 +3,18 @@
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 
 header {
     position: absolute;
     left: 0;
     top: 0;
+    z-index: 9999;
 }
 
 header a {
@@ -46,7 +50,7 @@ h2 {
 }
 
 #inicio {
-    background-color: black;
+    background-color: #000;
     position: relative;
 }
 
@@ -68,6 +72,7 @@ h2 {
     text-align: center;
 
 }
+
 #inicio .bloque-inicio h1 {
-   margin-bottom: 2.5px;
+    margin-bottom: 2.5px;
 }
