@@ -15,17 +15,27 @@ header {
     left: 0;
     top: 0;
     z-index: 9999;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+
 }
 
-header a {
+header nav a {
     color: #ffff;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 a {
     text-decoration: none;
     background-attachment: local;
-    display: block;
-    width: 100%;
     height: auto;
     background: local;
     margin-top: auto;
@@ -46,7 +56,36 @@ h2 {
 }
 
 .boton {
-    border-top: 50;
+    font-size: 16px;
+    padding: 5px, 15px;
+    text-align: center;
+}
+
+.boton.boton-celeste {
+    background-color: #025d7b;
+    color: #fff;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.container-full{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 #inicio {
